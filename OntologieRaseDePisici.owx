@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alex2/ontologies/2025/3/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alex2/ontologies/2025/3/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/alex2/ontologies/2025/3/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Anatomie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoadaScurta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gheara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gratios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indesat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mediu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musculos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mustata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oriental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParDeLungimeMedie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParLung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParScurt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParteCorp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pitic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subtire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TipCorp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ureche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrecheIndoita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zvelt"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Blana"/>
+        <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coada"/>
+        <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoadaScurta"/>
+        <Class IRI="#Coada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gheara"/>
+        <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gratios"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indesat"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laba"/>
+        <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mare"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mediu"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mic"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderat"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musculos"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mustata"/>
+        <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oriental"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParDeLungimeMedie"/>
+        <Class IRI="#Blana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParLung"/>
+        <Class IRI="#Blana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParScurt"/>
+        <Class IRI="#Blana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParteCorp"/>
+        <Class IRI="#Anatomie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pitic"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subtire"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TipCorp"/>
+        <Class IRI="#Anatomie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ureche"/>
+        <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrecheIndoita"/>
+        <Class IRI="#Ureche"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zvelt"/>
+        <Class IRI="#TipCorp"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Blana</IRI>
+        <Literal>Blana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coada</IRI>
+        <Literal>Coada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CoadaScurta</IRI>
+        <Literal>Coada scurta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gheara</IRI>
+        <Literal>Gheare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gratios</IRI>
+        <Literal>Corp alungit, suplu, cu linii elegante, picioare lungi si coada subtire. Capul este in forma de pana, iar urechile sunt mari.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Indesat</IRI>
+        <Literal>Corp scurt si lat, piept adanc si oase puternice. Capul este rotund si mare, iar membrele sunt scurte si groase.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Laba</IRI>
+        <Literal>Labutele</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mare</IRI>
+        <Literal>O pisica de talie impunatoare, cu musculatura bine dezvoltata si o prezenta dominanta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mediu</IRI>
+        <Literal>O pisica cu proportii echilibrate, nici prea mica, nici prea mare, cu o constitutie armonioasa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mic</IRI>
+        <Literal>Pisica delicata, de dimensiuni reduse, cu trasaturi fine si o prezenta discreta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moderat</IRI>
+        <Literal>O combinatie echilibrata intre zvelt si indesat, corp proportionat, fara trasaturi extreme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Musculos</IRI>
+        <Literal>Corp puternic, bine definit, cu muschi evidentiati mai ales pe umeri si spate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mustata</IRI>
+        <Literal>Mustata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Normal</IRI>
+        <Literal>Pisica cu o conformatie standard, fara caracteristici corporale evidente sau extreme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Oriental</IRI>
+        <Literal>Pisica cu trasaturi rafinate, corp lung, subtire, cap triunghiular si urechi mari.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParDeLungimeMedie</IRI>
+        <Literal>Par de lungime medie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParLung</IRI>
+        <Literal>Par lung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParScurt</IRI>
+        <Literal>Par scurt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParteCorp</IRI>
+        <Literal>Clasa care contine partile corpului unei pisici.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pitic</IRI>
+        <Literal>Pisica de talie mica, cu picioare foarte scurte, dar corp proporționat. Arata ca o pisică „normala” in miniatura.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Subtire</IRI>
+        <Literal>Corp fin, usor, cu putina masa musculara. Se misca agil si silentios.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TipCorp</IRI>
+        <Literal>Clasa care contine tipurile de corp ale unei pisici.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ureche</IRI>
+        <Literal>Ureche</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UrecheIndoita</IRI>
+        <Literal>Ureche indoita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zvelt</IRI>
+        <Literal>Corp extrem de suplu si elegant, cu miscari fluide, coada lunga si trasaturi rafinate.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
