@@ -6,17 +6,32 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/alex2/ontologies/2025/3/untitled-ontology-6">
-    <Prefix name="" IRI="http://www.semanticweb.org/alex2/ontologies/2025/3/untitled-ontology-6/"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/alex2/ontologies/2025/3/untitled-ontology-6"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#Activa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Afectuoasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agitata"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Anatomie"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Blana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blanda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Coada"/>
@@ -25,16 +40,61 @@
         <Class IRI="#CoadaScurta"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Curioasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Docila"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dominanta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dragalasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Echilibrata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energica"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Gheara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gratioasa"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Gratios"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Independenta"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Indesat"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Insistenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inteligenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iubitoare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jucausa"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Laba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linistita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lipicioasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loiala"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mare"/>
@@ -73,26 +133,76 @@
         <Class IRI="#ParteCorp"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Personalitate"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pitic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poznasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pretentioasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prietenoasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protectoare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puternica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sociabila"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Subtire"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Timida"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#TipCorp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toleranta"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ureche"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UrecheIndoita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vocala"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zvelt"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#Activa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Afectuoasa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agitata"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Blana"/>
         <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blanda"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calma"/>
+        <Class IRI="#Personalitate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Coada"/>
@@ -103,20 +213,80 @@
         <Class IRI="#Coada"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Curioasa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docila"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dominanta"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragalasa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Echilibrata"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energica"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Gheara"/>
         <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gratioasa"/>
+        <Class IRI="#Personalitate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gratios"/>
         <Class IRI="#TipCorp"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Independenta"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Indesat"/>
         <Class IRI="#TipCorp"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Insistenta"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inteligenta"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iubitoare"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jucausa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Laba"/>
         <Class IRI="#ParteCorp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linistita"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lipicioasa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loiala"/>
+        <Class IRI="#Personalitate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mare"/>
@@ -171,12 +341,44 @@
         <Class IRI="#TipCorp"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Poznasa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pretentioasa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prietenoasa"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protectoare"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puternica"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sociabila"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Subtire"/>
         <Class IRI="#TipCorp"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Timida"/>
+        <Class IRI="#Personalitate"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TipCorp"/>
         <Class IRI="#Anatomie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toleranta"/>
+        <Class IRI="#Personalitate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ureche"/>
@@ -185,6 +387,10 @@
     <SubClassOf>
         <Class IRI="#UrecheIndoita"/>
         <Class IRI="#Ureche"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vocala"/>
+        <Class IRI="#Personalitate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Zvelt"/>
@@ -319,5 +525,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
