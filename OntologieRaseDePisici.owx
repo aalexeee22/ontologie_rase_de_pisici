@@ -442,6 +442,15 @@
         <DataProperty IRI="#inaltime"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#nivelActivitate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelSocializare"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#potrivitaPentru"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#varsta"/>
     </Declaration>
     <Declaration>
@@ -2740,6 +2749,18 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#nivelActivitate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nivelSocializare"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#potrivitaPentru"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#varsta"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -2757,6 +2778,18 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#inaltime"/>
+        <Class IRI="#RasaDePisica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelActivitate"/>
+        <Class IRI="#Personalitate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelSocializare"/>
+        <Class IRI="#Personalitate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#potrivitaPentru"/>
         <Class IRI="#RasaDePisica"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
