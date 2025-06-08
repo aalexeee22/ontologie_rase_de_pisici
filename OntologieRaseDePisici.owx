@@ -409,6 +409,15 @@
         <Class IRI="#Zvelt"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#areComportament"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#areDetaliiFizice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#areOrigine"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#areParteCorp"/>
     </Declaration>
     <Declaration>
@@ -418,40 +427,46 @@
         <ObjectProperty IRI="#areStructura"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#areTaraOrigine"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#areTipBlana"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#areTipCorp"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#origine"/>
+        <ObjectProperty IRI="#esteHibridDin"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#rasaHibridaDin"/>
+        <DataProperty IRI="#areCuloare"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areDescriereComportamentala"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areDescriereFizica"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#greutate"/>
+        <DataProperty IRI="#areGen"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#inaltime"/>
+        <DataProperty IRI="#areGreutate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#nivelActivitate"/>
+        <DataProperty IRI="#areInaltime"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#nivelSocializare"/>
+        <DataProperty IRI="#areNivelActivitate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#potrivitaPentru"/>
+        <DataProperty IRI="#areNivelSocializare"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#estePotrivitaPentru"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Choupette"/>
@@ -514,15 +529,15 @@
     <SubClassOf>
         <Class IRI="#Abyssininiana"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Gratios"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Etiopia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Abyssininiana"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Etiopia"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Gratios"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -569,15 +584,15 @@
     <SubClassOf>
         <Class IRI="#AlbastruDeRusia"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Moderat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Rusia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AlbastruDeRusia"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Rusia"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Moderat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -594,15 +609,15 @@
     <SubClassOf>
         <Class IRI="#AmericanWirehair"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Normal"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AmericanWirehair"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Normal"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -626,15 +641,15 @@
     <SubClassOf>
         <Class IRI="#AmericanaCuBlanaScurta"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AmericanaCuBlanaScurta"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -658,15 +673,15 @@
     <SubClassOf>
         <Class IRI="#AngoraTurceasca"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Turcia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AngoraTurceasca"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Turcia"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -701,22 +716,22 @@
     <SubClassOf>
         <Class IRI="#Balineza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Gratios"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Balineza"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Balineza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#Thailanda"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balineza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Gratios"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -740,6 +755,13 @@
     <SubClassOf>
         <Class IRI="#Bengal"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bengal"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Mare"/>
         </ObjectSomeValuesFrom>
@@ -747,21 +769,14 @@
     <SubClassOf>
         <Class IRI="#Bengal"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Bengal"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Abyssininiana"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bengal"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#MauEgiptean"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -786,6 +801,13 @@
     <SubClassOf>
         <Class IRI="#Birman"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Franta"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Birman"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
@@ -793,21 +815,14 @@
     <SubClassOf>
         <Class IRI="#Birman"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Franta"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Birman"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#PersanModern"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Birman"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Siameza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -832,15 +847,15 @@
     <SubClassOf>
         <Class IRI="#Birmaneza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Gratios"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Mayanmar"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Birmaneza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Mayanmar"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Gratios"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -879,15 +894,15 @@
     <SubClassOf>
         <Class IRI="#BobtailAmerican"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BobtailAmerican"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -925,15 +940,15 @@
     <SubClassOf>
         <Class IRI="#BobtailJaponez"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Moderat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Japonia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BobtailJaponez"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Japonia"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Moderat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -957,6 +972,20 @@
     <SubClassOf>
         <Class IRI="#Bombay"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Mayanmar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bombay"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bombay"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
@@ -964,28 +993,14 @@
     <SubClassOf>
         <Class IRI="#Bombay"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Mayanmar"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Bombay"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Bombay"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#AmericanaCuBlanaScurta"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bombay"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Birmaneza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1014,15 +1029,15 @@
     <SubClassOf>
         <Class IRI="#BritanicaCuBlanaScurta"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#MareaBritanie"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BritanicaCuBlanaScurta"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#MareaBritanie"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1053,6 +1068,13 @@
     <SubClassOf>
         <Class IRI="#BurmezEuropean"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BurmezEuropean"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
@@ -1060,21 +1082,14 @@
     <SubClassOf>
         <Class IRI="#BurmezEuropean"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#BurmezEuropean"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Birmaneza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BurmezEuropean"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Siameza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1099,6 +1114,13 @@
     <SubClassOf>
         <Class IRI="#Burmilla"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#MareaBritanie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burmilla"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
@@ -1106,21 +1128,14 @@
     <SubClassOf>
         <Class IRI="#Burmilla"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#MareaBritanie"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Burmilla"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Birmaneza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Burmilla"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#PersanModern"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1160,15 +1175,15 @@
     <SubClassOf>
         <Class IRI="#Chartreux"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Musculos"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Franta"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Chartreux"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Franta"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Musculos"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1215,6 +1230,13 @@
     <SubClassOf>
         <Class IRI="#ColorpointCuParScurt"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#MareaBritanie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColorpointCuParScurt"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Gratios"/>
         </ObjectSomeValuesFrom>
@@ -1222,21 +1244,14 @@
     <SubClassOf>
         <Class IRI="#ColorpointCuParScurt"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#MareaBritanie"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ColorpointCuParScurt"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Abyssininiana"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ColorpointCuParScurt"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Siameza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1261,15 +1276,15 @@
     <SubClassOf>
         <Class IRI="#CornishRex"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Gratios"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#MareaBritanie"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CornishRex"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#MareaBritanie"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Gratios"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1297,15 +1312,15 @@
     <SubClassOf>
         <Class IRI="#CurlAmerican"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Gratios"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CurlAmerican"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Gratios"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1329,15 +1344,15 @@
     <SubClassOf>
         <Class IRI="#DevonRex"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Gratios"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#MareaBritanie"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DevonRex"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#MareaBritanie"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Gratios"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1396,6 +1411,13 @@
     <SubClassOf>
         <Class IRI="#Exotic"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exotic"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
@@ -1403,21 +1425,14 @@
     <SubClassOf>
         <Class IRI="#Exotic"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Exotic"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#AmericanaCuBlanaScurta"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Exotic"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#PersanModern"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1449,15 +1464,15 @@
     <SubClassOf>
         <Class IRI="#FoldScotian"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#MareaBritanie"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FoldScotian"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#MareaBritanie"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1501,6 +1516,13 @@
     <SubClassOf>
         <Class IRI="#HavanMaro"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#MareaBritanie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HavanMaro"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Gratios"/>
         </ObjectSomeValuesFrom>
@@ -1508,14 +1530,7 @@
     <SubClassOf>
         <Class IRI="#HavanMaro"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#MareaBritanie"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#HavanMaro"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Siameza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1568,15 +1583,15 @@
     <SubClassOf>
         <Class IRI="#KhaoManee"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Moderat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Thailanda"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#KhaoManee"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Thailanda"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Moderat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1600,15 +1615,15 @@
     <SubClassOf>
         <Class IRI="#Korat"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Musculos"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Thailanda"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Korat"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Thailanda"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Musculos"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1639,15 +1654,15 @@
     <SubClassOf>
         <Class IRI="#LaPerm"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Moderat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LaPerm"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Moderat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1680,15 +1695,15 @@
     <SubClassOf>
         <Class IRI="#Lykoi"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Moderat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lykoi"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Moderat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1712,15 +1727,15 @@
     <SubClassOf>
         <Class IRI="#MainCoon"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Mare"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MainCoon"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Mare"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1751,15 +1766,15 @@
     <SubClassOf>
         <Class IRI="#Manx"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Moderat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#MareaBritanie"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Manx"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#MareaBritanie"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Moderat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1784,15 +1799,15 @@
     <SubClassOf>
         <Class IRI="#MauEgiptean"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Moderat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Egipt"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MauEgiptean"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Egipt"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Moderat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1841,6 +1856,13 @@
     <SubClassOf>
         <Class IRI="#Ocicat"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocicat"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Mare"/>
         </ObjectSomeValuesFrom>
@@ -1848,21 +1870,14 @@
     <SubClassOf>
         <Class IRI="#Ocicat"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ocicat"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Abyssininiana"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ocicat"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Siameza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1914,6 +1929,13 @@
     <SubClassOf>
         <Class IRI="#PersanModern"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersanModern"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
@@ -1921,14 +1943,7 @@
     <SubClassOf>
         <Class IRI="#PersanModern"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PersanModern"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#AngoraTurceasca"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1953,15 +1968,15 @@
     <SubClassOf>
         <Class IRI="#PisicaForestieraNorvegiana"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Norvegia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PisicaForestieraNorvegiana"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Norvegia"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2016,6 +2031,13 @@
     <SubClassOf>
         <Class IRI="#Ragamuffin"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ragamuffin"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
@@ -2023,21 +2045,14 @@
     <SubClassOf>
         <Class IRI="#Ragamuffin"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ragamuffin"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#PersanModern"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ragamuffin"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Ragdoll"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2069,6 +2084,13 @@
     <SubClassOf>
         <Class IRI="#Ragdoll"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ragdoll"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipBlana"/>
             <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
@@ -2076,21 +2098,14 @@
     <SubClassOf>
         <Class IRI="#Ragdoll"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ragdoll"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#AngoraTurceasca"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ragdoll"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Birman"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2268,6 +2283,13 @@
     <SubClassOf>
         <Class IRI="#SelkirkRex"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelkirkRex"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Mare"/>
         </ObjectSomeValuesFrom>
@@ -2275,21 +2297,14 @@
     <SubClassOf>
         <Class IRI="#SelkirkRex"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SelkirkRex"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#AmericanaCuBlanaScurta"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SelkirkRex"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#BritanicaCuBlanaScurta"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2328,22 +2343,22 @@
     <SubClassOf>
         <Class IRI="#Siameza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Oriental"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Siameza"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#StateleUnite"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Siameza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#Thailanda"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Siameza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Oriental"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2360,15 +2375,15 @@
     <SubClassOf>
         <Class IRI="#Siberiana"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Rusia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Siberiana"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Rusia"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2403,22 +2418,22 @@
     <SubClassOf>
         <Class IRI="#Singapura"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Mic"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Singapura"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#Singapore"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Singapura"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Singapura"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Mic"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2453,22 +2468,22 @@
     <SubClassOf>
         <Class IRI="#Somaleza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Somaleza"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#Canada"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Somaleza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Somaleza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2492,22 +2507,22 @@
     <SubClassOf>
         <Class IRI="#Sphynx"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Oriental"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Sphynx"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#Canada"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sphynx"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
             <Class IRI="#Egipt"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sphynx"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Oriental"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2548,6 +2563,20 @@
     <SubClassOf>
         <Class IRI="#Tonkineza"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Canada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tonkineza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#StateleUnite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tonkineza"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#areTipCorp"/>
             <Class IRI="#Oriental"/>
         </ObjectSomeValuesFrom>
@@ -2555,28 +2584,14 @@
     <SubClassOf>
         <Class IRI="#Tonkineza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Canada"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tonkineza"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#StateleUnite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tonkineza"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Birmaneza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tonkineza"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#rasaHibridaDin"/>
+            <ObjectProperty IRI="#esteHibridDin"/>
             <Class IRI="#Siameza"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2622,15 +2637,15 @@
     <SubClassOf>
         <Class IRI="#Toybob"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Pitic"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Rusia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Toybob"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Rusia"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Pitic"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2659,15 +2674,15 @@
     <SubClassOf>
         <Class IRI="#VanTurceasca"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#areTipCorp"/>
-            <Class IRI="#Indesat"/>
+            <ObjectProperty IRI="#areTaraOrigine"/>
+            <Class IRI="#Turcia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VanTurceasca"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#origine"/>
-            <Class IRI="#Turcia"/>
+            <ObjectProperty IRI="#areTipCorp"/>
+            <Class IRI="#Indesat"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2719,182 +2734,194 @@
         <NamedIndividual IRI="#Ta-Miu"/>
     </ClassAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Choupette"/>
         <Literal>Albastra-Crem</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Choupette"/>
         <Literal>Femela</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Choupette"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Colonel_Meow"/>
         <Literal>Gri-Alba</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Colonel_Meow"/>
         <Literal>Mascul</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Colonel_Meow"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#India"/>
         <Literal>Neagra</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#India"/>
         <Literal>Femela</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#India"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">18.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Little_Nicky"/>
         <Literal>Gri-Portocalie Tigrata</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Little_Nicky"/>
         <Literal>Mascul</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Little_Nicky"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Maru"/>
         <Literal>Maro-Alba</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Maru"/>
         <Literal>Mascul</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Maru"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">17.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Mittens"/>
         <Literal>Crem</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Mittens"/>
         <Literal>Mascul</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Mittens"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">16.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Nala_Cat"/>
         <Literal>Gri Tigrata</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Nala_Cat"/>
         <Literal>Femela</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Nala_Cat"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Olivia_Benson"/>
         <Literal>Alba Tigrata</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Olivia_Benson"/>
         <Literal>Femela</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Olivia_Benson"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Stewie"/>
         <Literal>Gri Tigrata</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Stewie"/>
         <Literal>Mascul</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#greutate"/>
+        <DataProperty IRI="#areGreutate"/>
         <NamedIndividual IRI="#Stewie"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">15.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#inaltime"/>
+        <DataProperty IRI="#areInaltime"/>
         <NamedIndividual IRI="#Stewie"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">123.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Stewie"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Ta-Miu"/>
         <Literal>Femela</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#areParteCorp"/>
+        <ObjectProperty IRI="#areComportament"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#areDetaliiFizice"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#areOrigine"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#areParteCorp"/>
+        <ObjectProperty IRI="#areDetaliiFizice"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#arePersonalitate"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#areComportament"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#areStructura"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#areDetaliiFizice"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#areTaraOrigine"/>
+        <ObjectProperty IRI="#areOrigine"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#areTipBlana"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#areDetaliiFizice"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#areTipCorp"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#areDetaliiFizice"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#origine"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#rasaHibridaDin"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#esteHibridDin"/>
+        <ObjectProperty IRI="#areOrigine"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#areParteCorp"/>
@@ -2909,6 +2936,10 @@
         <Class IRI="#RasaDePisica"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#areTaraOrigine"/>
+        <Class IRI="#RasaDePisica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#areTipBlana"/>
         <Class IRI="#RasaDePisica"/>
     </ObjectPropertyDomain>
@@ -2917,11 +2948,7 @@
         <Class IRI="#RasaDePisica"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#origine"/>
-        <Class IRI="#RasaDePisica"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#rasaHibridaDin"/>
+        <ObjectProperty IRI="#esteHibridDin"/>
         <Class IRI="#RasaHibrida"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
@@ -2937,6 +2964,10 @@
         <Class IRI="#Anatomie"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#areTaraOrigine"/>
+        <Class IRI="#Tara"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#areTipBlana"/>
         <Class IRI="#Blana"/>
     </ObjectPropertyRange>
@@ -2945,95 +2976,99 @@
         <Class IRI="#TipCorp"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#origine"/>
-        <Class IRI="#Tara"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#rasaHibridaDin"/>
+        <ObjectProperty IRI="#esteHibridDin"/>
         <Class IRI="#RasaDePisica"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
+        <DataProperty IRI="#areDescriereFizica"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#areDescriereComportamentala"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areDescriereFizica"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#greutate"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <DataProperty IRI="#areGen"/>
+        <DataProperty IRI="#areDescriereFizica"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#inaltime"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <DataProperty IRI="#areGreutate"/>
+        <DataProperty IRI="#areDescriereFizica"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#nivelActivitate"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <DataProperty IRI="#areInaltime"/>
+        <DataProperty IRI="#areDescriereFizica"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#nivelSocializare"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <DataProperty IRI="#areNivelActivitate"/>
+        <DataProperty IRI="#areDescriereComportamentala"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#potrivitaPentru"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <DataProperty IRI="#areNivelSocializare"/>
+        <DataProperty IRI="#areDescriereComportamentala"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#varsta"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <DataProperty IRI="#areVarsta"/>
+        <DataProperty IRI="#areDescriereFizica"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#estePotrivitaPentru"/>
+        <DataProperty IRI="#areDescriereComportamentala"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <Class IRI="#RasaDePisica"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <Class IRI="#RasaDePisica"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#greutate"/>
+        <DataProperty IRI="#areGreutate"/>
         <Class IRI="#RasaDePisica"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#inaltime"/>
+        <DataProperty IRI="#areInaltime"/>
         <Class IRI="#RasaDePisica"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#nivelActivitate"/>
+        <DataProperty IRI="#areNivelActivitate"/>
         <Class IRI="#Personalitate"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#nivelSocializare"/>
+        <DataProperty IRI="#areNivelSocializare"/>
         <Class IRI="#Personalitate"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#potrivitaPentru"/>
+        <DataProperty IRI="#areVarsta"/>
         <Class IRI="#RasaDePisica"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#estePotrivitaPentru"/>
         <Class IRI="#RasaDePisica"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#culoare"/>
+        <DataProperty IRI="#areCuloare"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#gen"/>
+        <DataProperty IRI="#areGen"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#greutate"/>
+        <DataProperty IRI="#areGreutate"/>
         <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#inaltime"/>
+        <DataProperty IRI="#areInaltime"/>
         <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#varsta"/>
+        <DataProperty IRI="#areVarsta"/>
         <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <AnnotationAssertion>
@@ -3148,12 +3183,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#unitateDeMasura"/>
-        <IRI>#greutate</IRI>
+        <IRI>#areGreutate</IRI>
         <Literal>Kilograme</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#unitateDeMasura"/>
-        <IRI>#inaltime</IRI>
+        <IRI>#areInaltime</IRI>
         <Literal>Centimetri</Literal>
     </AnnotationAssertion>
 </Ontology>
