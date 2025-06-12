@@ -469,16 +469,88 @@
         <DataProperty IRI="#estePotrivitaPentru"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Adam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Athena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Callie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Charlie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Charlotte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chopin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Choupette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cleo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coffee"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Colonel_Meow"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Daddy_Warbucks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daisy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Freya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ginger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gizmo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hazel"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#India"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Kallibunker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kitty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lily"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Little_Nicky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lord_Luke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lucy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mango"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Maru"/>
@@ -490,13 +562,52 @@
         <NamedIndividual IRI="#Nala_Cat"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Nutmeg"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Olivia_Benson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ollie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Penelope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pepper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prune"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pumpkin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roxie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sergei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shulamith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smokey"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stewie"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Sugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sunny"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ta-Miu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tonga"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#unitateDeMasura"/>
@@ -2694,20 +2805,116 @@
         <Class IRI="#TipCorp"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#AmericanWirehair"/>
+        <NamedIndividual IRI="#Adam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toybob"/>
+        <NamedIndividual IRI="#Alice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Korat"/>
+        <NamedIndividual IRI="#Athena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ColorpointCuParScurt"/>
+        <NamedIndividual IRI="#Callie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HavanMaro"/>
+        <NamedIndividual IRI="#Charlie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SelkirkRex"/>
+        <NamedIndividual IRI="#Charlotte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chartreux"/>
+        <NamedIndividual IRI="#Chopin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Birman"/>
         <NamedIndividual IRI="#Choupette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Balineza"/>
+        <NamedIndividual IRI="#Cleo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BritanicaCuBlanaScurta"/>
+        <NamedIndividual IRI="#Coby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BritanicaCuBlanaScurta"/>
+        <NamedIndividual IRI="#Coffee"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#PersanModern"/>
         <NamedIndividual IRI="#Colonel_Meow"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Ragdoll"/>
+        <NamedIndividual IRI="#Daddy_Warbucks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singapura"/>
+        <NamedIndividual IRI="#Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PisicaForestieraNorvegiana"/>
+        <NamedIndividual IRI="#Freya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exotic"/>
+        <NamedIndividual IRI="#Ginger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DevonRex"/>
+        <NamedIndividual IRI="#Gizmo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BobtailAmerican"/>
+        <NamedIndividual IRI="#Hazel"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#AmericanaCuBlanaScurta"/>
         <NamedIndividual IRI="#India"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#CornishRex"/>
+        <NamedIndividual IRI="#Kallibunker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BobtailJaponez"/>
+        <NamedIndividual IRI="#Kitty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tonkineza"/>
+        <NamedIndividual IRI="#Leo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Birmaneza"/>
+        <NamedIndividual IRI="#Lily"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MainCoon"/>
         <NamedIndividual IRI="#Little_Nicky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manx"/>
+        <NamedIndividual IRI="#Lord_Luke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VanTurceasca"/>
+        <NamedIndividual IRI="#Lucy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bombay"/>
+        <NamedIndividual IRI="#Luna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Somaleza"/>
+        <NamedIndividual IRI="#Mango"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#FoldScotian"/>
@@ -2722,17 +2929,234 @@
         <NamedIndividual IRI="#Nala_Cat"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#BurmezEuropean"/>
+        <NamedIndividual IRI="#Nutmeg"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#FoldScotian"/>
         <NamedIndividual IRI="#Olivia_Benson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Burmilla"/>
+        <NamedIndividual IRI="#Ollie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LaPerm"/>
+        <NamedIndividual IRI="#Penelope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bengal"/>
+        <NamedIndividual IRI="#Pepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sphynx"/>
+        <NamedIndividual IRI="#Prune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Abyssininiana"/>
+        <NamedIndividual IRI="#Pumpkin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ragamuffin"/>
+        <NamedIndividual IRI="#Roxie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlbastruDeRusia"/>
+        <NamedIndividual IRI="#Sergei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CurlAmerican"/>
+        <NamedIndividual IRI="#Shulamith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lykoi"/>
+        <NamedIndividual IRI="#Smokey"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MainCoon"/>
         <NamedIndividual IRI="#Stewie"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#KhaoManee"/>
+        <NamedIndividual IRI="#Sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Siberiana"/>
+        <NamedIndividual IRI="#Sunny"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MauEgiptean"/>
         <NamedIndividual IRI="#Ta-Miu"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ocicat"/>
+        <NamedIndividual IRI="#Tonga"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Adam"/>
+        <Literal>Rosie-Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Adam"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Adam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal>Crem-Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">40.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Athena"/>
+        <Literal>Albastra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Athena"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Athena"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Athena"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">75.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Athena"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Callie"/>
+        <Literal>Alba-Rosie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Callie"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Callie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Callie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">65.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Callie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Charlie"/>
+        <Literal>Maro-Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Charlie"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Charlie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Charlie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">57.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Charlie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Charlotte"/>
+        <Literal>Maro-portocalie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Charlotte"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Charlotte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Charlotte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">75.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Charlotte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Chopin"/>
+        <Literal>Albastra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Chopin"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Chopin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Chopin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">64.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Chopin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Choupette"/>
@@ -2747,6 +3171,61 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Choupette"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Cleo"/>
+        <Literal>Crem-Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Cleo"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Cleo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Cleo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">50.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Cleo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Coby"/>
+        <Literal>Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Coby"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Coby"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Coffee"/>
+        <Literal>Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Coffee"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Coffee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -2765,6 +3244,146 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Daddy_Warbucks"/>
+        <Literal>Maro-inchis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Daddy_Warbucks"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Daddy_Warbucks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Daisy"/>
+        <Literal>Crem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Daisy"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Daisy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Daisy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">50.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Daisy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Freya"/>
+        <Literal>Rosie-Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Freya"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Freya"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Freya"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">80.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Freya"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Ginger"/>
+        <Literal>Portocalie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Ginger"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Ginger"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Ginger"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">49.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Ginger"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Gizmo"/>
+        <Literal>Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Gizmo"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Gizmo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Gizmo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">58.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Gizmo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Hazel"/>
+        <Literal>Maro-Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Hazel"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Hazel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Hazel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">79.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Hazel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#India"/>
         <Literal>Neagra</Literal>
     </DataPropertyAssertion>
@@ -2780,6 +3399,86 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Kallibunker"/>
+        <Literal>Crem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Kallibunker"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Kallibunker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Kitty"/>
+        <Literal>Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Kitty"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Kitty"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Leo"/>
+        <Literal>Alba-Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Leo"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Leo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Leo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">78.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Leo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Lily"/>
+        <Literal>Alba-Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Lily"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Lily"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Lily"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">39.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Lily"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Little_Nicky"/>
         <Literal>Gri-Portocalie Tigrata</Literal>
     </DataPropertyAssertion>
@@ -2792,6 +3491,96 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Little_Nicky"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Lord_Luke"/>
+        <Literal>Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Lord_Luke"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Lord_Luke"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Lucy"/>
+        <Literal>Alba-Rosie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Lucy"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Lucy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Lucy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">60.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Lucy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Luna"/>
+        <Literal>Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Luna"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Luna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Luna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">60.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Luna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Mango"/>
+        <Literal>Rosie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Mango"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Mango"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Mango"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">60.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Mango"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -2840,6 +3629,31 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Nutmeg"/>
+        <Literal>Maro-Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Nutmeg"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Nutmeg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Nutmeg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">74.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Nutmeg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Olivia_Benson"/>
         <Literal>Alba Tigrata</Literal>
     </DataPropertyAssertion>
@@ -2852,6 +3666,206 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Olivia_Benson"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Ollie"/>
+        <Literal>Albastra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Ollie"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Ollie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Ollie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">55.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Ollie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Penelope"/>
+        <Literal>Portocalie-Neagra-Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Penelope"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Penelope"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Penelope"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">75.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Penelope"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Pepper"/>
+        <Literal>Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Pepper"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Pepper"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Pepper"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">40.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Pepper"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Prune"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Prune"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Pumpkin"/>
+        <Literal>Rosie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Pumpkin"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Pumpkin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Pumpkin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">85.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Pumpkin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Roxie"/>
+        <Literal>Alba-neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Roxie"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Roxie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Roxie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">64.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Roxie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Sergei"/>
+        <Literal>Albastra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Sergei"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Sergei"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Sergei"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">46.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Sergei"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Shulamith"/>
+        <Literal>Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Shulamith"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Shulamith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Smokey"/>
+        <Literal>Neagra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Smokey"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Smokey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Smokey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">40.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Smokey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -2879,9 +3893,74 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Sugar"/>
+        <Literal>Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Sugar"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Sugar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Sugar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">65.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Sugar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Sunny"/>
+        <Literal>Rosie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Sunny"/>
+        <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGreutate"/>
+        <NamedIndividual IRI="#Sunny"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areInaltime"/>
+        <NamedIndividual IRI="#Sunny"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">49.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Sunny"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areGen"/>
         <NamedIndividual IRI="#Ta-Miu"/>
         <Literal>Femela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areCuloare"/>
+        <NamedIndividual IRI="#Tonga"/>
+        <Literal>Alba-Aurie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areGen"/>
+        <NamedIndividual IRI="#Tonga"/>
+        <Literal>Mascul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areVarsta"/>
+        <NamedIndividual IRI="#Tonga"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#areComportament"/>
