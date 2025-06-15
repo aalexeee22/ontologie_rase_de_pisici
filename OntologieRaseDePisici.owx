@@ -466,6 +466,9 @@
         <DataProperty IRI="#areVarsta"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#areVarstaInt"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#esteFaimoasa"/>
     </Declaration>
     <Declaration>
@@ -1838,6 +1841,13 @@
         <Class IRI="#MainCoon"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#arePersonalitate"/>
+            <Class IRI="#Timida"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MainCoon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#arePersonalitate"/>
             <Class IRI="#Toleranta"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3044,6 +3054,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#estePotrivitaPentru"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal>apartament</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Athena"/>
         <Literal>Albastra</Literal>
@@ -3529,6 +3544,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#areVarstaInt"/>
+        <NamedIndividual IRI="#Lily"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estePotrivitaPentru"/>
+        <NamedIndividual IRI="#Lily"/>
+        <Literal>apartament</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Little_Nicky"/>
         <Literal>Gri-Portocalie Tigrata</Literal>
@@ -3812,6 +3837,11 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Pepper"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estePotrivitaPentru"/>
+        <NamedIndividual IRI="#Pepper"/>
+        <Literal>curte</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areGen"/>
@@ -4191,6 +4221,10 @@
         <DataProperty IRI="#areDescriereFizica"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#areVarstaInt"/>
+        <DataProperty IRI="#areDescriereFizica"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#esteFaimoasa"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -4253,6 +4287,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#areVarsta"/>
         <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#areVarstaInt"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#esteFaimoasa"/>
