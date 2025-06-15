@@ -466,6 +466,12 @@
         <DataProperty IRI="#areVarsta"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#esteFaimoasa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#esteFictiva"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#estePotrivitaPentru"/>
     </Declaration>
     <Declaration>
@@ -3008,6 +3014,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">6.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Adam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Alice"/>
         <Literal>Crem-Neagra</Literal>
@@ -3173,6 +3184,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Choupette"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Cleo"/>
         <Literal>Crem-Neagra</Literal>
@@ -3213,6 +3229,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Coby"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Coffee"/>
         <Literal>Alba</Literal>
@@ -3226,6 +3247,11 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Coffee"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Coffee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -3256,6 +3282,11 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Daddy_Warbucks"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Daddy_Warbucks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -3398,6 +3429,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">18.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#India"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Kallibunker"/>
         <Literal>Crem</Literal>
@@ -3413,6 +3449,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Kallibunker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Kitty"/>
         <Literal>Alba</Literal>
@@ -3426,6 +3467,16 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Kitty"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Kitty"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esteFictiva"/>
+        <NamedIndividual IRI="#Kitty"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -3493,6 +3544,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Little_Nicky"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Lord_Luke"/>
         <Literal>Alba</Literal>
@@ -3506,6 +3562,11 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Lord_Luke"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Lord_Luke"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -3598,6 +3659,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">17.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Maru"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Mittens"/>
         <Literal>Crem</Literal>
@@ -3626,6 +3692,11 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Nala_Cat"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">13.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Nala_Cat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -3753,6 +3824,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Prune"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Pumpkin"/>
         <Literal>Rosie</Literal>
@@ -3843,6 +3919,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Shulamith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Smokey"/>
         <Literal>Neagra</Literal>
@@ -3891,6 +3972,11 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Stewie"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Stewie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
@@ -3948,6 +4034,11 @@
         <Literal>Femela</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Ta-Miu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#areCuloare"/>
         <NamedIndividual IRI="#Tonga"/>
         <Literal>Alba-Aurie</Literal>
@@ -3961,6 +4052,11 @@
         <DataProperty IRI="#areVarsta"/>
         <NamedIndividual IRI="#Tonga"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <NamedIndividual IRI="#Tonga"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#areComportament"/>
@@ -4095,6 +4191,14 @@
         <DataProperty IRI="#areDescriereFizica"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#esteFictiva"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#estePotrivitaPentru"/>
         <DataProperty IRI="#areDescriereComportamentala"/>
     </SubDataPropertyOf>
@@ -4149,6 +4253,14 @@
     <DataPropertyRange>
         <DataProperty IRI="#areVarsta"/>
         <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#esteFaimoasa"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#esteFictiva"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4269,6 +4381,16 @@
         <AnnotationProperty IRI="#unitateDeMasura"/>
         <IRI>#areInaltime</IRI>
         <Literal>Centimetri</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esteFaimoasa</IRI>
+        <Literal>true/false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esteFictiva</IRI>
+        <Literal>Este sau nu pisica din desene animate/filme</Literal>
     </AnnotationAssertion>
 </Ontology>
 
